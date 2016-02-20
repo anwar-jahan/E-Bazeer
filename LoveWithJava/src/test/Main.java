@@ -7,8 +7,8 @@ public class Main {
 		MyImmutable myImmutable = new MyImmutable("value1");
 		
 		myImmutable.setMyImmutableString("changedValue");
-		//System.out.println(myImmutable.getMyImmutableString());
-		
+		System.out.println(myImmutable.getMyImmutableString());
+
 
 	}
 
